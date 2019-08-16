@@ -26,6 +26,9 @@ public class RegfVO {
 	@ManyToOne	
 	private  loginVO vo;
 
+
+  //testing
+
 	public int getId() {
 		return id;
 	}
