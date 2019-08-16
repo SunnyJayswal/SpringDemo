@@ -144,6 +144,8 @@ public void update(RegVO regVO)
   				 session.save(regvo);
   				 transaction.commit();
   				 session.close();
+
+
   			}
   		catch(Exception ex)
   			{
