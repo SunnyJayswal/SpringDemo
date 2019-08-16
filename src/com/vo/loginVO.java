@@ -21,7 +21,7 @@ public class loginVO {
 	
 	@Column(name="password")
 	private String password;
-
+//another testing
 	public int getId() {
 		return id;
 	}
