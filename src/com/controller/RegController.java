@@ -46,6 +46,8 @@ public class RegController
     	{
     		List ls=this.regDAO.search(regVO);
     		return new ModelAndView("search","list",ls);
+
+
     	}
    
     	
